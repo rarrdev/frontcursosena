@@ -1,0 +1,23 @@
+.cssH1{
+    color: #b5739d; 
+    font-weight: bolder;
+}
+
+label {
+    font-weight: 500;
+    font-size: 1.4rem !important;
+    color: #1F618D;
+}
+
+.cssInputText{
+    font-size: 1.3rem !important;
+    color: #478dd3;
+}
+
+.objetoOculto{
+ visibility: hidden;
+}
+
+.objetoVisible{
+    visibility: visible;
+}
