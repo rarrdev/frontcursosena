@@ -33,7 +33,7 @@ function pintarTabla() {
     arrayDocentes.forEach(function (item) {
         let cadena = `
         <tr><td>${item.tipoidentificacion}</td> <td>${item.identificacion}</td>
-        <td>${item.primerNombre} ${item.segundoNombre}</td> <td> ${item.primerApellido} ${item.segundoApellido}</td>
+        <td>${item.primernombre} ${item.segundonombre}</td> <td> ${item.primerapellido} ${item.segundoapellido}</td>
         <td><button type="button" class="btn btn-danger btn-sm" onclick = "eliminarDocente(${item.id})">Eliminar</button></td>
         <td><button type="button" class="btn btn-success btn-sm" onclick = "modificarDocente(${item.id})">Modificar</button></td></tr>`
         cabTabla += cadena;
